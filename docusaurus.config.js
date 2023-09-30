@@ -68,8 +68,8 @@ const config = {
       navbar: {
         title: 'OJ Lab Docusaurus',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'OJ Lab Logo',
+          src: 'img/oj-lab-icon.svg',
         },
         items: [
           {
@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} OJ Lab, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
