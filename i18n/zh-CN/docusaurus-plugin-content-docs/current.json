@@ -14,5 +14,9 @@
   "sidebar.docusaurusSidebar.category.Tutorial - Extras": {
     "message": "Tutorial - Extras",
     "description": "The label for category Tutorial - Extras in sidebar docusaurusSidebar"
+  },
+  "sidebar.learnSidebar.category.Platform Services": {
+    "message": "平台服务",
+    "description": "The label for category Platform Services in sidebar learnSidebar"
   }
 }
