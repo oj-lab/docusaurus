@@ -1,41 +1,42 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: <Translate>Easy to Use</Translate>,
     Svg: require('@site/static/img/undraw-oj-lab-mountain.svg').default,
     description: (
-      <>
+      <Translate>
         If you are a user of OJ Lab, you can easily find the information you.
         OJ Lab Docusaurus contains everything you will need to know.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Stay Focus on News',
+    title: <Translate>Stay Focus on News</Translate>,
     Svg: require('@site/static/img/undraw-oj-lab-tree.svg').default,
     description: (
-      <>
+      <Translate>
         OJ Lab Docusaurus help you keep up with the latest news in the OJ Lab.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Powered by React',
+    title: <Translate>Powered by React</Translate>,
     Svg: require('@site/static/img/undraw-oj-lab-react.svg').default,
     description: (
-      <>
+      <Translate>
         This website layout can be extended or customized by reusing React.
         It's also mobile-friendly.
-      </>
+      </Translate>
     ),
   },
 ];

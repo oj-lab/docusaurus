@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "OJ Lab Docusaurus",
   tagline: "Official content release for OJ Lab",
-  favicon: "img/favicon.ico",
+  favicon: "img/oj-lab-icon.ico",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-test-site.com",
@@ -31,7 +31,16 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-CN"],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+      "zh-CN": {
+        htmlLang: 'zh-CN',
+      },
+    },
   },
 
   presets: [
@@ -87,6 +96,10 @@ const config = {
             href: "https://github.com/OJ-lab/oj-lab-docusaurus",
             label: "GitHub",
             position: "right",
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
         ],
       },
