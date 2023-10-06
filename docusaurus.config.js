@@ -50,11 +50,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/OJ-lab/oj-lab-docusaurus",
+          editUrl: "https://github.com/OJ-lab/oj-lab-docusaurus/tree/main",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/OJ-lab/oj-lab-docusaurus",
+          editUrl: "https://github.com/OJ-lab/oj-lab-docusaurus/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
