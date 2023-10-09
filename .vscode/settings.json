@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "markdownlint.config": {
+    "no-inline-html": {
+      "allowed_elements": ["img", "u"]
+    },
+    "no-empty-links": false,
+    "no-hard-tabs": false,
+    "single-h1": false
+  }
+}
