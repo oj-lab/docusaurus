@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -34,11 +35,11 @@ const config = {
     locales: ["en", "zh-CN"],
     localeConfigs: {
       en: {
-        htmlLang: 'en-GB',
+        htmlLang: "en-GB",
       },
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
       "zh-CN": {
-        htmlLang: 'zh-CN',
+        htmlLang: "zh-CN",
       },
     },
   },
@@ -98,8 +99,8 @@ const config = {
             position: "right",
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
           },
         ],
       },
@@ -145,10 +146,10 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} OJ Lab, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: lightTheme,
+        darkTheme: darkTheme,
       },
     }),
 };
 
-module.exports = config;
+export default config;
