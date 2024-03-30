@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Ubuntu Setup Guide
 
 Currently, OJ Lab developed almost everything on Ubuntu,
