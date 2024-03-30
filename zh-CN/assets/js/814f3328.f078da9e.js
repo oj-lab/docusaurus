@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkoj_lab_docusaurus=self.webpackChunkoj_lab_docusaurus||[]).push([[535],{5641:s=>{s.exports=JSON.parse('{"title":"\u8fd1\u671f\u7684\u6587\u7ae0","items":[{"title":"\u6b22\u8fce\u6765\u5230 OJ Lab Docusaurus","permalink":"/oj-lab-docusaurus/zh-CN/blog/welcome"}]}')}}]);
