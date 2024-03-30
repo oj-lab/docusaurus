@@ -1,11 +1,11 @@
 ---
 sidebar_position: 2
-tag: [
-    "k8s",
-    "minikube",
-    "helm",
-    "lens"
-]
+tags:
+    - Kubernetes
+    - Minikube
+    - Helm
+    - Lens
+    - Setup Guide
 ---
 
 # K8s Setup Guide

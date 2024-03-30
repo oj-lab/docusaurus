@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+tags:
+    - Setup Guide
 ---
 
 # Ubuntu Setup Guide
