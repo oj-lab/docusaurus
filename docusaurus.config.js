@@ -157,7 +157,7 @@ const config = {
       /** @type {import('@dipakparmar/docusaurus-plugin-umami').Options} */
       ({
         websiteID: "b636e4e9-a210-4ef5-a7e9-192e04b798c5", // Required
-        analyticsDomain: "oj-lab.github.io", // Required
+        analyticsDomain: "us.umami.is", // Required
       }),
     ],
   ],
