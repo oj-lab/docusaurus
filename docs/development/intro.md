@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# OJ Lab Learn Intro
+# OJ Lab Development Intro
 
 :::caution
 

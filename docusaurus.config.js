@@ -111,8 +111,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "OJ Lab Learn",
-                to: "/docs/learn/intro",
+                label: "OJ Lab Development",
+                to: "/docs/development/intro",
               },
               {
                 label: "Docusaurus Tutorial",

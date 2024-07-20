@@ -18,13 +18,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/learn/intro"
+            to="/docs/development/intro"
           >
             <Translate
-              id="homepage.button.learn"
+              id="homepage.button.development"
               description="The label of the homepage button"
             >
-              🚀 Start from Development Knowledge Learn
+              🚀 Start from Development Knowledge Development
             </Translate>
           </Link>
         </div>
