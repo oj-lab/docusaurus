@@ -78,9 +78,9 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "learnSidebar",
+            sidebarId: "developmentSidebar",
             position: "left",
-            label: "Learn",
+            label: "Development",
           },
           {
             to: "/blog",
@@ -154,11 +154,10 @@ const config = {
   plugins: [
     [
       "@dipakparmar/docusaurus-plugin-umami",
-      /** @type {import('@dipakparmar/docusaurus-plugin-umami').Options} */
-      ({
+      {
         websiteID: "b636e4e9-a210-4ef5-a7e9-192e04b798c5", // Required
         analyticsDomain: "us.umami.is", // Required
-      }),
+      },
     ],
   ],
 };
