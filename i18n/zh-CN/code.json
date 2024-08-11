@@ -35,9 +35,9 @@
     "message": "信息",
     "description": "The default label used for the Info admonition (:::info)"
   },
-  "theme.admonition.caution": {
+  "theme.admonition.warning": {
     "message": "警告",
-    "description": "The default label used for the Caution admonition (:::caution)"
+    "description": "The default label used for the warning admonition (:::warning)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "回到顶部",
