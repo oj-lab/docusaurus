@@ -29,7 +29,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/OJ-lab/oj-lab-docusaurus"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/OJ-lab/docusaurus"
   },
   "copyright": {
     "message": "Copyright © 2023 OJ Lab, Inc. Built with Docusaurus.",

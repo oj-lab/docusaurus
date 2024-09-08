@@ -12,10 +12,10 @@ const config = {
   favicon: "img/oj-lab-icon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://oj-lab.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/oj-lab-docusaurus/",
+  baseUrl: "/docusaurus/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,11 +51,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/OJ-lab/oj-lab-docusaurus/tree/main",
+          editUrl: "https://github.com/OJ-lab/docusaurus/tree/main",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/OJ-lab/oj-lab-docusaurus/tree/main",
+          editUrl: "https://github.com/OJ-lab/docusaurus/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -94,7 +94,7 @@ const config = {
             label: "Docusaurus",
           },
           {
-            href: "https://github.com/OJ-lab/oj-lab-docusaurus",
+            href: "https://github.com/OJ-lab/docusaurus",
             label: "GitHub",
             position: "right",
           },
@@ -138,7 +138,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/OJ-lab/oj-lab-docusaurus",
+                href: "https://github.com/OJ-lab/docusaurus",
               },
             ],
           },

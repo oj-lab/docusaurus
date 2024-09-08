@@ -1,7 +1,7 @@
 # Making View
 
 This document will guide you through the process of creating a new view in
-[OJ Lab front](https://github.com/oj-lab/oj-lab-front)
+[OJ Lab front](https://github.com/oj-lab/frontend)
 .
 
 You will get to know with three main directories:
