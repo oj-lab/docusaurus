@@ -29,7 +29,7 @@ By installing Minikube, you will also install `kubectl`, the Kubernetes command-
 
 OJ Lab use Helm Chart to manage Kubernetes resources.
 You may easily get a runnable OJ Lab cluster by using Helm.
-The Chart is available in the [oj-lab-helm](https://github.com/OJ-lab/oj-lab-helm) repository.
+The Chart is available in the [oj-lab-helm](https://github.com/oj-lab/oj-lab-helm) repository.
 
 Helm is a package manager for Kubernetes that helps you define, install, and upgrade even the most complex Kubernetes applications.
 Follow the [Helm Installation Guide](https://helm.sh/docs/intro/install/) to install Helm on your machine.

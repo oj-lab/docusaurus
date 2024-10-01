@@ -19,7 +19,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "OJ-lab", // Usually your GitHub org/user name.
+  organizationName: "oj-lab", // Usually your GitHub org/user name.
   projectName: "oj-lab-docusaurus", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -51,11 +51,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/OJ-lab/docusaurus/tree/main",
+          editUrl: "https://github.com/oj-lab/docusaurus/tree/main",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/OJ-lab/docusaurus/tree/main",
+          editUrl: "https://github.com/oj-lab/docusaurus/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -94,7 +94,7 @@ const config = {
             label: "Docusaurus",
           },
           {
-            href: "https://github.com/OJ-lab/docusaurus",
+            href: "https://github.com/oj-lab/docusaurus",
             label: "GitHub",
             position: "right",
           },
@@ -138,7 +138,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/OJ-lab/docusaurus",
+                href: "https://github.com/oj-lab/docusaurus",
               },
             ],
           },
